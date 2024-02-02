@@ -4154,7 +4154,11 @@ $ git commit -am "texto"\par
 --------------------------------------\par
 # desfazendo coisas\par
 $ git checkout nomearquivo\par
-TESTE PARA DESFAZER \par
+# tirar o arquivo do staged e voltando para unstaged\par
+$ git reset HEAD nomearquivo\par
+# tr\'eas maneira de desfazer \par
+git reset --soft --mixed --hard\par
+\par
 \par
 
 \pard\sa200\sl276\slmult1\par
